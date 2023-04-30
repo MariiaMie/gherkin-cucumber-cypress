@@ -1,7 +1,6 @@
 {
   "name": "cypress-e2e",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,11 +11,12 @@
   "author": "Łukasz",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.8.1",
+    "cypress": "^12.11.0",
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.3.0"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^16.0.3"
-  }
+  },
+  "description": ""
 }
